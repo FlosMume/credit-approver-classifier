@@ -1,0 +1,13 @@
+
+name: credit-approval-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.26
+  - pandas>=2.0
+  - matplotlib>=3.7
+  - scikit-learn>=1.4
+  - pip
+  - pip:
+      - joblib>=1.3
